@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<Item
+    android:id="@+id/logo"
+    android:title="로고"
+    android:icon="@drawable/logo"
+    android:layout_gravity="center"
+    app:showAsAction="always"/>
+
+<Item
+    android:id="@+id/setting"
+    android:title="세팅"
+    app:showAsAction="never"/>
+
+</menu>
