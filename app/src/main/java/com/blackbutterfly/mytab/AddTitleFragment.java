@@ -15,7 +15,7 @@ public class AddTitleFragment extends Fragment {
 
     @Nullable
     @Override
-// 여기서 버튼을 누르면 달력이 나오고, 달력을 설정해서 데이 숫자가 넘어와야한다.
+    // 여기서 버튼을 누르면 달력이 나오고, 달력을 설정해서 데이 숫자가 넘어와야한다.
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup addTitle = (ViewGroup)   inflater.inflate(R.layout.fragment_add_title,container,false);
         return addTitle;
